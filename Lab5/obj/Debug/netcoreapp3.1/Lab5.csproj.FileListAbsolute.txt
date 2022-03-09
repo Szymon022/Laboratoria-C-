@@ -1,0 +1,14 @@
+D:\VisualStudio Projects\Lab5\bin\Debug\netcoreapp3.1\Lab5.exe
+D:\VisualStudio Projects\Lab5\bin\Debug\netcoreapp3.1\Lab5.deps.json
+D:\VisualStudio Projects\Lab5\bin\Debug\netcoreapp3.1\Lab5.runtimeconfig.json
+D:\VisualStudio Projects\Lab5\bin\Debug\netcoreapp3.1\Lab5.runtimeconfig.dev.json
+D:\VisualStudio Projects\Lab5\bin\Debug\netcoreapp3.1\Lab5.dll
+D:\VisualStudio Projects\Lab5\bin\Debug\netcoreapp3.1\Lab5.pdb
+D:\VisualStudio Projects\Lab5\obj\Debug\netcoreapp3.1\Lab5.csproj.AssemblyReference.cache
+D:\VisualStudio Projects\Lab5\obj\Debug\netcoreapp3.1\Lab5.GeneratedMSBuildEditorConfig.editorconfig
+D:\VisualStudio Projects\Lab5\obj\Debug\netcoreapp3.1\Lab5.AssemblyInfoInputs.cache
+D:\VisualStudio Projects\Lab5\obj\Debug\netcoreapp3.1\Lab5.AssemblyInfo.cs
+D:\VisualStudio Projects\Lab5\obj\Debug\netcoreapp3.1\Lab5.csproj.CoreCompileInputs.cache
+D:\VisualStudio Projects\Lab5\obj\Debug\netcoreapp3.1\Lab5.dll
+D:\VisualStudio Projects\Lab5\obj\Debug\netcoreapp3.1\Lab5.pdb
+D:\VisualStudio Projects\Lab5\obj\Debug\netcoreapp3.1\Lab5.genruntimeconfig.cache
