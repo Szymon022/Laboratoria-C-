@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Book xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" BookType="Hardcover">
+  <Identifier>6</Identifier>
+  <Title>The Pragmatic Programmer</Title>
+  <Author>Andrew Hunt</Author>
+  <PrintLength>458</PrintLength>
+  <PublicationDetails>
+    <PublicationDate>1999-10-20T00:00:00</PublicationDate>
+    <PublicationPlace>Boston</PublicationPlace>
+    <Publisher>Addison-Wesley Professional</Publisher>
+  </PublicationDetails>
+</Book>

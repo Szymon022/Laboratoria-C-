@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Book xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" BookType="Ebook">
+  <Identifier>3</Identifier>
+  <Title>The lean startup</Title>
+  <Author>Eric Ries</Author>
+  <PrintLength>336</PrintLength>
+  <PublicationDetails>
+    <PublicationDate>2011-09-13T00:00:00</PublicationDate>
+    <PublicationPlace>Unknown</PublicationPlace>
+    <Publisher>Currency</Publisher>
+  </PublicationDetails>
+</Book>

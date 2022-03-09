@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Book xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" BookType="Hardcover">
+  <Identifier>2</Identifier>
+  <Title>Małżeństwo - przemyśl to</Title>
+  <Author>Bogna Białecka</Author>
+  <PrintLength>180</PrintLength>
+  <PublicationDetails>
+    <PublicationDate>2012-12-14T00:00:00</PublicationDate>
+    <PublicationPlace>Dębogóra</PublicationPlace>
+    <Publisher>Dębogóra</Publisher>
+  </PublicationDetails>
+</Book>
