@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Book xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <GUID>fa4cc48d-abe3-4601-822e-2d2827a3f43f</GUID>
+  <Title>The Power of Habit</Title>
+  <CoverType>Hardcover</CoverType>
+  <Author>
+    <GUID>c6ded9d1-9fb8-40ec-a766-9a57cc17f07d</GUID>
+    <Name>Charles</Name>
+    <Surname>Duhigg</Surname>
+    <Birthday>1956-05-14T00:00:00</Birthday>
+  </Author>
+  <Details>
+    <PublicationDate>1956-05-14T00:00:00</PublicationDate>
+    <PublicationCity>New York City</PublicationCity>
+    <PublisherName>Random House Trade Paperbacks</PublisherName>
+  </Details>
+</Book>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Person xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <GUID>fb8f6c69-46ce-4f6a-8297-a1c2b4c3991d</GUID>
+  <Name>Lloyd</Name>
+  <Surname>Douglas</Surname>
+  <Birthday>1960-12-13T00:00:00</Birthday>
+</Person>

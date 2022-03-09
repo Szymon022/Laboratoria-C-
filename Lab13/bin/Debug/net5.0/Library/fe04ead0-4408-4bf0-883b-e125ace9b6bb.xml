@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Book xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <GUID>fe04ead0-4408-4bf0-883b-e125ace9b6bb</GUID>
+  <Title>Harry Potter i Kamień Filozoficzny</Title>
+  <CoverType>Hardcover</CoverType>
+  <Author>
+    <GUID>44372b9b-7f66-4a90-bc0f-2f0e25e3e003</GUID>
+    <Name>Joanne</Name>
+    <Surname>Rowling</Surname>
+    <Birthday>1965-07-31T00:00:00</Birthday>
+  </Author>
+  <Details>
+    <PublicationDate>1997-06-26T00:00:00</PublicationDate>
+    <PublicationCity>London</PublicationCity>
+    <PublisherName>Bloomsbury Publishing</PublisherName>
+  </Details>
+</Book>

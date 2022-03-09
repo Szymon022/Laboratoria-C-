@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Person xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <GUID>3ec3a720-4e71-4461-a0e7-64f020df9d41</GUID>
+  <Name>Bogna</Name>
+  <Surname>Białecka</Surname>
+  <Birthday>1973-01-29T00:00:00</Birthday>
+</Person>

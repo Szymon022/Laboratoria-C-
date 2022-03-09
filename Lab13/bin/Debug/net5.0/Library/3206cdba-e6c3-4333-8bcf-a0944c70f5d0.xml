@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Book xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <GUID>3206cdba-e6c3-4333-8bcf-a0944c70f5d0</GUID>
+  <Title>Sekretne życie drzew</Title>
+  <CoverType>EBook</CoverType>
+  <Author>
+    <GUID>86c77521-18a3-4aea-a6ea-9e6e10b18446</GUID>
+    <Name>Peter</Name>
+    <Surname>Wohlleben</Surname>
+    <Birthday>1934-09-07T00:00:00</Birthday>
+  </Author>
+  <Details>
+    <PublicationDate>1934-09-07T00:00:00</PublicationDate>
+    <PublicationCity>Kraków</PublicationCity>
+    <PublisherName>Otwarte</PublisherName>
+  </Details>
+</Book>

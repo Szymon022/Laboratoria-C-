@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Book xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <GUID>f94fae49-1374-4ec2-9591-b52083948982</GUID>
+  <Title>Szata</Title>
+  <CoverType>Hardcover</CoverType>
+  <Author>
+    <GUID>fb8f6c69-46ce-4f6a-8297-a1c2b4c3991d</GUID>
+    <Name>Lloyd</Name>
+    <Surname>Douglas</Surname>
+    <Birthday>1960-12-13T00:00:00</Birthday>
+  </Author>
+  <Details>
+    <PublicationDate>1960-12-13T00:00:00</PublicationDate>
+    <PublicationCity>Warszawa</PublicationCity>
+    <PublisherName>Instytut wydawniczy PAX</PublisherName>
+  </Details>
+</Book>
