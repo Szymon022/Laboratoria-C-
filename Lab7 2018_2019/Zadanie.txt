@@ -1,0 +1,46 @@
+
+Etap 1.
+W pliku Sequences.cs zdefiniowa� klasy implementuj�ce interfejs IEnumerable
+ - Naturals - zwraca kolejne liczby naturalne (parametr konstruktora to pierwsza liczba, domy�lnie 0)
+ - RandomNumbers - zwraca liczby losowe z zakresu <0,max) z zadanym ziarnem generatora
+   (ziarno i max to parametry konstruktora). Wykorzysta� klas� System.Random.
+ - Tribonacci - zwraca kolejne liczby ci�gu Tribonacciego - t0 = t1 = 0, t2 = 1, tn = tn-1 + tn-2 + tn-3
+ - Catalan - zwraca ci�g liczb Catalana, c0 = 1, cn+1 = cn * 2 * (2 * n + 1) / (n + 2);
+ - Polynomial - jako paramter konstruktora przyjmuje tablic� wsp�czynnik�w wielomianu.
+   Zwraca warto�ci tego wielomianu liczone dla kolejnych liczb naturalnych
+
+Etap 2.
+W pliku Modifiers.cs zdefiniowa� klasy implementuj�ce interfejs IModifier
+ - FirstN - jako paramter przyjmuje n. Zwraca n pierwszych wyraz�w ci�gu
+ - LinearTransform - przekszta�ca ci�g wej�ciowy (x) wed�ug wzoru y = a*x+b, gdzie a,b - parametry konstruktora
+ - Unique - pomija s�siaduj�ce ze sob� elementy o jednakowej warto�ci
+ - Prime - zwraca wszystkie liczby pierwsze z ci�gu
+
+Etap 3.
+W pliku Modifiers.cs zdefiniowa� klas� implementuj�c� interfejs IModifier
+ - LocalMax - zwraca wszystkie maksima lokalne w ci�gu, przyk�ady:
+      Dane                                 Wynik
+      3                                    3
+      4,1                                  4
+      2,5                                  5
+      3,1,2,2,2,5,5,4,2,1,3,2,4,4,4        3,5,3,4
+
+Etap 4.
+W pliku Merger.cs zdefiniowa� klas� implementuj�c� interfejs IMerger
+ - Add - dodaje parami kolejne wyrazy ci�g�w (przerywa gdy sko�czy si� kt�ra� z sekwencji wej�ciowych)
+   
+Etap 5.
+W pliku Modifiers.cs zdefiniowa� klas� implementuj�c� interfejs IModifier
+ - ComposedModifier - jako parameetr przyjmuje tablic� obiekt�w IModifier.
+   Zwraca ci�g zmodyfikowany kolejno wszystkimi modyfikatorami (elementami tablicy)
+W pliku Sequences.cs zdefiniowa� klas� implementuj�c� interfejs IEnumerable
+ - Multiplicationtable - tworzy tabliczk� mno�enia dla liczb od 1 do n ( n - parametr konstruktora)
+   UWAGA! - generujemy seksencje sekwencji (nie poszczeg�lne liczby, a ca�e wiersze tabliczki mno�enia)
+   Mo�na skorzysta� ze zdefiniowanych wcze�niej generator�w sekwencji i modyfikator�w.
+
+Uwagi:
+ - w�a�ciwo�� Name podaje kr�tki opis tego co dana klasa robi
+ - nie mo�na u�ywa� LINQ
+ - nie mo�na zmienia� pliku Program.cs poza odkomentowaniem odpowiednich linii.
+   Zaimplementowane klasy powinny dawa� takie same wyniki jak w pliku Wyniki.txt
+   

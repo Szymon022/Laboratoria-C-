@@ -1,0 +1,69 @@
+﻿
+Będziemy rozważać zbiór znaków wraz z ich licznością.
+Inaczej mówiąc elementami zbioru będą pary: znak (char), liczność (int).
+Liczność jest liczbą całkowitą większą od 0.
+
+Przykład:
+{(a:5), (b:10)} - zbiór z dwoma elementami: litera 'a' o liczności 5 oraz litera 'b' o liczności 10.
+
+Tak jak w tradycyjnych zbiorach, w zbiorze tym nie mogą istnieć dwa elementy z tym samym znakiem.
+
+== CZĘŚĆ 1 == (1 pkt)
+Stwórz klasę CharSet, która będzie reprezentowała zbiór opisany powyżej.
+Wewnętrzna reprezentacja zbioru (wybrana struktura danych) jest dowolna.
+Wskazówka: Można użyć listy par elementów lub słownika (patrz "Przydatne informacje" poniżej).
+
+Stwórz konstruktor przyjmujący dowolną liczbę dwuelementowych krotek typu (char, int) - będą to elementy zbioru.
+Uwaga: Aby używać krotek niezbędna jest zmiana wersji .Net na 4.7.
+Aby to zrobić wybieramy Project -> Properties i zmieniamy Target Framework na .NET Framework 4.7
+
+Zdefiniuj metodę ToString(), która będzie zwracała stringa z elementami zbioru w formie takiej, jak w powyższym przykładzie.
+
+== CZĘŚĆ 2 == (2 pkt)
+Zaimplementuj operatory:
+a) +, który dodaje do zbioru jeden znak (char)
+	jeśli element o danym znaku istnieje już w zbiorze, to jego liczność jest zwiększana o 1,
+	jeśli nie istnieje to znak jest dodawany z licznością = 1
+b) +, który będzie zwracał sumę zbiorów: 
+	liczność danego znaku w zbiorze wynikowym jest sumą liczności z sumowanych zbiorów
+	(w szczególności jeśli w dany znak nie istnieje w którymś ze zbiorów to traktujemy go jakby miał liczność = 0)
+c) *, który będzie zwracał iloczyn zbiorów:
+	do zbioru wynikowego dodajemy tylko te znaki, które istnieją w obu zbiorach
+	- liczność tego znaku równa jest mniejszej liczności z obu zbiorów
+d) ++, który zwiększy liczność każdego znaku w zbiorze o 1
+
+== CZĘŚĆ 3 == (1 pkt)
+Zaimplementuj operatory porównywania:
+a) ==, zwraca true tylko jeśli oba zbiory mają wszystkie te same znaki z tymi samymi licznościami
+b) !=, zwraca true w przeciwnym przypadku niż operator ==
+c) <, zwraca true tylko jeśli pierwszy ze zbiorów "zawiera się" w drugim, czyli dla każdego znaku ze zbioru pierwszego
+      w zbiorze drugim istnieje element o tym samym znaku i większej liczności
+d) >, analogicznie jak powyższy - zwraca true tylko jeśli drugi ze zbiorów "zawiera się" w pierwszym
+
+Uwaga: 
+- kompilacja programu po zrealizowaniu tej części nie powinna powodować żadnych ostrzeżeń
+
+== CZĘŚĆ 4 == (1 pkt)
+Zaimplementuj indeksator [char], który pozwoli na:
+a) pobranie liczności elementu o znaku podanym w indeksatorze (jeśli w zbiorze nie istnieje taki element zwróć 0)
+b) zmianę liczności elementu o znaku podanym w indeksatorze
+
+Stwórz niejawną konwersję typu string na CharSet. Zwracany jest zbiór ze znakami z podanego stringa i ich licznościami.
+Stwórz jawną konwersję typu char na CharSet. Zwracany jest nowy zbiór zawierający jeden podany znak.
+
+
+== Przydatne informacje ==
+--- Listy ---
+Lista (List<T>) w C# podobna jest do klasy vector z C++.
+List<T> lista = new List<T>(); - tworzenie listy elementów typu T
+lista.Add(x); - dodanie elementu do listy
+lista.Count - liczba elementów listy
+
+--- Słowniki ---
+Słownik (Dictionary<K,V>) jest strukturą przechowującą parę klucz,wartość (odpowiednik map z C++)
+Klucz jest wartością unikalną w ramach słownika.
+Dictionary<K,V> slownik = new Dictionary<K,V>(); - tworzenie słownika
+slownik.Add(klucz,wartosc); - dodanie elementu do słownika
+slownik[klucz] - odczyt wartosci o podanym kluczu
+slownik.ContainsKey(klucz); - informacja czy podany klucz istnieje w słowniku
+lista.Count - liczba elementów (kluczy) w słowniku
