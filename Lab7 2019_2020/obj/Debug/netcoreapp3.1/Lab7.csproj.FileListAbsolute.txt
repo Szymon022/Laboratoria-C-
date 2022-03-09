@@ -1,0 +1,14 @@
+D:\VisualStudio Projects\Lab7 2019_2020\bin\Debug\netcoreapp3.1\Lab7.exe
+D:\VisualStudio Projects\Lab7 2019_2020\bin\Debug\netcoreapp3.1\Lab7.deps.json
+D:\VisualStudio Projects\Lab7 2019_2020\bin\Debug\netcoreapp3.1\Lab7.runtimeconfig.json
+D:\VisualStudio Projects\Lab7 2019_2020\bin\Debug\netcoreapp3.1\Lab7.runtimeconfig.dev.json
+D:\VisualStudio Projects\Lab7 2019_2020\bin\Debug\netcoreapp3.1\Lab7.dll
+D:\VisualStudio Projects\Lab7 2019_2020\bin\Debug\netcoreapp3.1\Lab7.pdb
+D:\VisualStudio Projects\Lab7 2019_2020\obj\Debug\netcoreapp3.1\Lab7.csproj.AssemblyReference.cache
+D:\VisualStudio Projects\Lab7 2019_2020\obj\Debug\netcoreapp3.1\Lab7.GeneratedMSBuildEditorConfig.editorconfig
+D:\VisualStudio Projects\Lab7 2019_2020\obj\Debug\netcoreapp3.1\Lab7.AssemblyInfoInputs.cache
+D:\VisualStudio Projects\Lab7 2019_2020\obj\Debug\netcoreapp3.1\Lab7.AssemblyInfo.cs
+D:\VisualStudio Projects\Lab7 2019_2020\obj\Debug\netcoreapp3.1\Lab7.csproj.CoreCompileInputs.cache
+D:\VisualStudio Projects\Lab7 2019_2020\obj\Debug\netcoreapp3.1\Lab7.dll
+D:\VisualStudio Projects\Lab7 2019_2020\obj\Debug\netcoreapp3.1\Lab7.pdb
+D:\VisualStudio Projects\Lab7 2019_2020\obj\Debug\netcoreapp3.1\Lab7.genruntimeconfig.cache
